@@ -26,10 +26,9 @@ int main(void)
 {
 	struct Card deck[SIZE] = { 0 };		// array of struct Cards to store the three types.
 
-	int numPlayers = NUMPLAYERS;
 	int deckPos = 0;					// track deck position
 
-	setUpDeck(deck, numPlayers, &deckPos);
+	setUpDeck(deck, NUMPLAYERS, &deckPos);
 
 	return 0;
 }
